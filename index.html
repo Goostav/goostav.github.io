@@ -2,12 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Country search engine</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      
+      <div class="container">
+          <h1>Country search engine</h1>
+          <div class="tools">
+              <button id="search">Search a country</button>
+              <input id="country-name" type="text" />
+          </div>
+          <div class="lists">
+              <div class="count">
+                  <h2>Country</h2>
+                  <ul id="countries">
+                      <li>No data</li>
+                  </ul>
+              </div>
+              <div class="capi">
+                  <h2>Capitol</h2>
+                  <ul id="capitols">
+                      <li>No data</li>
+                  </ul>
+              </div>
+          </div>
+      </div>    
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,44 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    color: aliceblue;
+    margin: auto 250px;
+    padding: 15px;
+    text-align: center
+}
+
+h1 {font-size: 58px;}
+
+#search, #country-name {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.lists {
+   display: flex;
+   justify-content: space-around;
+}
+
+h2 {font-size: 38px;}
+
+.count {
+    text-align: left;
+}
+
+.capi {
+    text-align: right;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
